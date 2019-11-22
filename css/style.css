@@ -13,7 +13,7 @@ body {
 }
 .header-nav {
   background-color: #F5F8FA;
-  width: 60%;
+  width: 80%;
   height: 80px;
   margin: 0 auto;
   line-height: 80px;
@@ -73,7 +73,7 @@ a.button-orange {
   text-align: left;
 }
 .second-header-nav {
-  width: 60%;
+  width: 80%;
   height: 80px;
   margin: 0 auto;
   line-height: 100px;
@@ -115,4 +115,27 @@ a.button-orange {
   width: 100%;
   height: 800px;
   border-top: 1px solid lightgrey;
+}
+ .background-header h1 {
+  height: 150px;
+  width: 60%;
+  font-size: 55px;
+  color: #33475B;
+  margin-left: 20%;
+  margin-bottom: 60px;
+  vertical-align: middle;
+ }
+ .background-header h2 {
+  color: #33475B;
+  width: 60%;
+  height: 300px;
+  font-size: 17px;
+  margin-left: 20%;
+ }
+.background-testo{
+  width: 55%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
 }
