@@ -116,7 +116,8 @@ a.button-orange {
   height: 800px;
   border-top: 1px solid lightgrey;
 }
- .background-header h1 {
+/* titoli header */
+h1 {
   height: 150px;
   width: 60%;
   font-size: 55px;
@@ -125,17 +126,34 @@ a.button-orange {
   margin-bottom: 60px;
   vertical-align: middle;
  }
- .background-header h2 {
+h2.descrizione {
   color: #33475B;
   width: 60%;
-  height: 300px;
+  height: 100px;
   font-size: 17px;
   margin-left: 20%;
+  vertical-align: middle;
  }
 .background-testo{
+  height: 500px;
   width: 55%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   left: 0;
+}
+.background-testo a {
+  text-align: center;
+  width: 25%;
+  text-decoration: none;
+  padding: 25px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-left: 20%;
+}
+h2 {
+  font-size: 12px;
+  margin-top: 60px;
+  color: #33475B;
+  margin-left: 20%;
 }
