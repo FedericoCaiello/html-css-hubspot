@@ -166,8 +166,43 @@ h3{
   color: #33475B;
   font-size: 18px;
   margin-left: 25%;
+  margin-bottom: 60px;
 }
 .container-cubo{
   width: 100%;
   text-align: center;
+}
+.first-container-main {
+  content: "";
+  display: table;
+  clear: both;
+  width: 60%;
+  height: 250px;
+  margin-left: 20%;
+  border: 2px solid #e0fffb;
+  border-radius: 4px;
+}
+.first-container {
+  text-align: center;
+  width: 40%;
+  height: 250px;
+}
+.float-left{
+  float: left;
+}
+.button-main {
+  background-color: #FF8F73;
+  color: white;
+  text-decoration: none;
+  width: 20%;
+  border-radius: 4px;
+}
+.second-container{
+  background-color: yellow;
+  width: 60%;
+  height: 250px;
+}
+.title-main {
+  font-size: 32px;
+  color: #33475B;
 }
