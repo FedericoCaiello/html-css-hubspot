@@ -8,7 +8,6 @@ body {
 }
 .page-headernav {
   width: 100%;
-  height: 80px;
   background-color: #F5F8FA;
 }
 .header-nav {
@@ -156,4 +155,19 @@ h2 {
   margin-top: 60px;
   color: #33475B;
   margin-left: 20%;
+}
+/* inizio del main */
+h3{
+  font-size: 48px;
+  color: #33475B;
+}
+.second-title {
+  width: 50%;
+  color: #33475B;
+  font-size: 18px;
+  margin-left: 25%;
+}
+.container-cubo{
+  width: 100%;
+  text-align: center;
 }
