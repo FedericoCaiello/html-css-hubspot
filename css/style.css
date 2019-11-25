@@ -180,6 +180,7 @@ h3{
   width: 60%;
   height: 250px;
   margin-left: 20%;
+  margin-bottom: 50px;
   border: 2px solid #e0fffb;
   border-radius: 4px;
 }
@@ -192,7 +193,6 @@ h3{
   margin-bottom: 25px;
   width: 200px;
   display: inline-block;
-
 }
 .button-main {
   background-color: #FF8F73;
@@ -205,12 +205,14 @@ h3{
   line-height: 40px;
   vertical-align: middle;
 }
+.tre-bottoni {
+  margin-top: 45px;
+}
 .second-container{
   width: 60%;
   float: right;
 }
 .title-main {
-  text-align: left;
   font-size: 32px;
   color: #33475B;
 }
@@ -237,3 +239,46 @@ h3{
   color: #FF8F73;
   padding: 8px;
 }
+/* tre contenitori */
+.three-container {
+  content: "";
+  display: table;
+  clear: both;
+  width: 70%;
+  height: 250px;
+  margin-left: 15%;
+  border-radius: 4px;
+}
+.box {
+  text-align: center;
+  float: left;
+  width: 25%;
+  height: 550px;
+  margin-left: 75px;
+  border: 2px solid #e0fffb;
+}
+.descrizione-three-container {
+  color: #33475B;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.FEATURE-CENTER {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 22px;
+  color: #33475B;
+}
+.three-container ul li a  {
+  text-decoration: none;
+  color: #33475B;
+}
+.three-container ul li {
+  text-align: left;
+  margin-left: 15px;
+}
+.three-container ul li a i {
+  color: #FF8F73;
+  margin-right: 8px;
+}
+/* fine tre contenitori */
